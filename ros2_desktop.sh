@@ -22,6 +22,7 @@ rosdep update
 cd ~/
 mkdir robocon
 cd robocon
+echo "source /opt/ros/jazzy/setup.bash" >> colcon_build.sh
 echo "colcon build --symlink-install --continue-on-error --cmake-args -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS='-Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Wshadow -Wnon-virtual-dtor'" >> colcon_build.sh
 chmod +x colcon_build.sh
 mkdir src
