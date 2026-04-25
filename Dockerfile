@@ -12,12 +12,7 @@ WORKDIR /home/nitic/ROS2_SETUP_GUIDE
 SHELL ["/bin/bash", "-c"]
 
 RUN ls -la
-RUN ./ros2_desktop.sh
-RUN ./hokuyo.sh
-RUN ./lakibeam.sh
-RUN ./natto.sh
-RUN ./unitree_l1.sh
-RUN ./ydlidar.sh
+RUN ./all.sh
 
 WORKDIR /home/nitic/robocon
 CMD ["bash"]
