@@ -13,6 +13,7 @@ SHELL ["/bin/bash", "-c"]
 
 RUN ls -la
 RUN ./ros2_desktop.sh
+RUN source /opt/ros/jazzy/setup.bash
 RUN ./hokuyo.sh
 RUN ./lakibeam.sh
 RUN ./natto.sh
