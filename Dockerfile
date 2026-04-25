@@ -7,7 +7,7 @@ RUN apt update -y && apt upgrade -y && apt install -y git
 WORKDIR /home/nitic
 
 RUN git clone https://github.com/NITIC-Robot-Club/ROS2_SETUP_GUIDE.git
-WORKDIR /home/nitic-robot-club/ROS2_SETUP_GUIDE
+WORKDIR /home/nitic/ROS2_SETUP_GUIDE
 
 SHELL ["/bin/bash", "-c"]
 
