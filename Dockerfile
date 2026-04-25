@@ -2,7 +2,7 @@ FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt update -y && apt upgrade -y && apt install -y git
+RUN apt update -y && apt upgrade -y && apt install -y git sudo
 
 WORKDIR /home/nitic
 
