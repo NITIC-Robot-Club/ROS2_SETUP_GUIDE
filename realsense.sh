@@ -1,1 +1,1 @@
-sudo apt install ros-jazzy-realsense2-*
+sudo apt install -y ros-jazzy-realsense2-*
